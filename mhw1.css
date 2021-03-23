@@ -1,0 +1,247 @@
+
+@media (max-width: 500px) {
+  #details {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  #details {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 625px) {
+  header {
+    height: 675px;
+    line-height: 1.2;
+  }
+  #logo img {
+	  width: 200px;
+    padding: 20px 0px;
+	}
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1060px) {
+  #links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+}
+
+
+@media(min-width: 1061px){
+  #menu{
+    display: none;
+  }
+  }
+
+ a {
+  cursor: pointer;
+}
+
+a.button {
+  padding: 10px 15px;
+  border: 2px solid white;
+}
+
+a.button:hover {
+  background-color: white;
+  color: rgb(63, 35, 8);
+}
+
+#Home{
+  color: rgb(170, 170, 170);
+}
+
+body {
+  color: rgba(26, 26, 26, .7);
+  font-family: 'Kiwi Maru', serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+.button,
+#details h1,
+footer address,
+header h1 strong,
+
+#links {
+  font-family: 'Questrial', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#details div {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+#details img {
+  width: 100%;
+}
+
+#details h1 {
+  color: rgb(61, 153, 145);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  padding: 75px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, .4);
+}
+
+header h1 {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h1 a.button {
+  border: 0;
+  background-color: rgb(54, 179, 168);
+  display: inline-block;
+}
+
+h1 a.button:hover {
+  background-color: rgba(54, 179, 168, 0.75);
+  /* In this case, I'm using inherit to ignore the other :hover rule I set. */
+  color: inherit;
+}
+
+header {
+  color: white;
+  background-image: url(Immagini/header-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 870px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+header div h1 {
+  /*font-size: 20px;*/
+  font-size: 3em;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+
+
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  font-size: .875em;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headerbody{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+
+#links a {
+  margin: 15px;
+}
+
+#logo img {
+  width: 300px;
+  padding: 30px 30px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#main h1 {
+  /*font-size: 28px;*/
+  font-size: 1.75em;
+  font-weight: normal;
+  color: rgba(26,26,26,.9);
+}
+
+#mainbox{
+  display: flex;
+
+
+}
+p {
+  /*line-height: 36px;*/
+  line-height: 2.25em;
+}
+
+section {
+  margin: 100px 125px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  section {
+    margin: 40px 10px;
+  }
+}
