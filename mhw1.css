@@ -173,18 +173,6 @@ a.button:hover {
   color: rgb(170, 170, 170);
 }
 
-#headerbody{
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
 #menu{
   display: none;
 }
